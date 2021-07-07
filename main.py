@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-DESIRED_HUBS = {'Как'}
 KEYWORDS = ['проекта', 'Как']
 
 response = requests.get('https://habr.com/ru/all')
